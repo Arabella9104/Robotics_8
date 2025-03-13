@@ -1,0 +1,23 @@
+what i learned today was 
+print("SECURE LOGIN")
+username = input("Username > ")
+if username == "Nutella":
+  print("Welcome Nutella!")
+elif username == "suzanne":
+  print("Hey there Suzanne!")
+else: 
+  print("Go away!")
+
+
+  i also learned the day 6 challenge 
+  print("Secure Login")
+username = input("What is your username?")
+password = input("What is your password?")
+if username == "Arabella" and password == "Nutella":
+  print("Welcome, Arabella! You are looking nice today!")
+elif username == "Sarah" and password == "Stemcollegiate":
+  print("Hi sarah! Love your hair today!")
+elif username == "juliet" and password == "Romeo":
+  print("Yo! juliet! What up?!")
+else:
+  print("You do not have access. Go away!")
