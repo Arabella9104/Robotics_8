@@ -1,0 +1,29 @@
+what i lerned today was 
+tvShow = input("What is your favorite tv show? ")
+if tvShow == "Pocoyo":
+  print("Ugh, why?")
+  faveCharacter = input("Who is your favorite character? ")
+  if faveCharacter == "Pocoyo":
+    print("Right answer")
+  else:
+    print("Nah, Elly, the greatest")
+elif tvShow == "paw patrol":
+  print("Aww, sad times")
+else:
+  print("Yeah, that's cool and all…")
+
+
+i also learned the challenge 
+print ("Are you a superfan of 'Rapunzel' or a fake fan? ")
+print()
+print("Answer these questions to find out.")
+Glasses = input("Does someone wear a purple dress? ")
+if Glasses == "yes":
+  print("Correct!")
+else:
+  print("Wrong!")
+  WhoGlasses = input("And who wears a purple dress? ")
+  if WhoGlasses == "Rapunzel":
+    print("You got it")
+  else:
+    print("Try again!")
